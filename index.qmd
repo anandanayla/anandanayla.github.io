@@ -1,0 +1,146 @@
+---
+title: "Analisis Faktor-faktor yang Mempengaruhi Volume Ekspor Karet Alam Indonesia ke Jepang"
+subtitle: "Metode Penelitian Politeknik APP Jakarta"
+author: "Ananda Nayla Dzikra Azhar"
+date: 2022-08-10
+number-sections: true
+format:
+  html: default
+  docx: default
+editor: visual
+---
+![](poltekapp.jpg)
+
+# Pendahuluan
+## Latar Belakang
+
+Perkebunan merupakan salah satu subsektor yang memiliki peranan penting dalam peningkatan devisa dan kesejahteraan rakyat Indonesia. Kontribusi perkebunan terhadap nilai ekspor pertanian sebesar 90,9 persen atau 363,2 triliun rupiah dan terhadap Produk Domestik Bruto (PDB) sekitar 3,94 persen pada tahun 2021. Salah satu komoditas unggulan perkebunan di Indonesia adalah karet (Badan Pusat Statistik, 2021). Karet memiliki sifat fisik yang lembut, tangguh, elastis, impermeabel, dan menghambat listrik. Kegunaannya dalam banyak industri seperti manufaktur, otomotif, dan kesehatan membuat permintaan akan komoditas karet cukup tinggi. 
+
+Karet alam (kode Harmonized System 4001) terbuat dari getah yang berasal dari tanaman karet jenis Hevea Brasiliensis. Menurut Organisasi Pangan dan Pertanian, Indonesia merupakan negara ekspor utama produk karet alam dalam bentuk lain dengan rata-rata volume ekspor mencapai 2.649.475,4 ton. Luas areal karet Indonesia menempati peringkat pertama di dunia dengan total luas areal mencapai 3.726.173 hektar. Nilai ekspor terbesar karet Indonesia berasal dari salah satu produk turunan karet alam yaitu technically specified natural rubber (NTSR) 20 dengan kontribusi sebesar 90,70 persen (Ditjenbun, 2021). 
+
+Salah satu negara tujuan utama ekspor karet alam Indonesia adalah Jepang. Indonesia merupakan importir utama komoditas karet alam bagi Jepang dengan presentase nilai impor mencapai 37,3 persen. Pada tahun 2021, total nilai ekspor komoditas karet alam ke Jepang sebesar 843.272 ribu USD. Meskipun begitu, produksi karet alam Indonesia masih lebih rendah dibanding luas lahannya sehingga perlu diketahui apakah produksi dan luas lahan berpengaruh terhadap volume ekspor karet alam Indonesia ke Jepang.
+
+## Batasan Masalah
+
+Penelitian membatasi ruang lingkup dalam pembahasan pengaruh produksi dan luas lahan terhadap volume ekspor karet alam Indonesia ke Jepang.
+
+## Rumusan Masalah
+
+Apakah produksi mempengaruhi volume ekspor karet alam Indonesia ke Jepang?
+
+Apakah luas lahan mempengaruhi volume ekspor karet alam Indonesia ke Jepang?
+
+Apakah produksi dan luas lahan mempengaruhi volume ekspor karet alam Indonesia ke Jepang?
+
+
+## Tujuan dan Manfaat Penelitian
+
+Berdasarkan rumusan masalah diatas, tujuan penelitian ini adalah untuk menentukan pengaruh produksi dan luas lahan terhadap volume ekspor karet alam Indonesia ke Jepang. Penelitian diharapkan dapat memberikan manfaat untuk mengetahui faktor-faktor yang mempengaruhi ekspor karet alam Indonesia ke Jepang.
+
+# Studi Pustaka
+## Teori Ekspor
+
+Berdasarkan Undang-undang nomor 17 tahun 2006, ekspor adalah kegiatan mengeluarkan barang dari daerah pabean. Kegiatan ekspor merupakan wadah yang menyediakan pasar yang lebih luas bagi para pelaku bisnis. Umumnya, ekspor dilakukan ketika suatu negara atau perusahaan memiliki keunggulan terhadap komoditas tersebut. Seiring dengan meningkatnya arus barang dan jasa antar negara dalam era liberalisasi perdagangan dunia, peluang ekspor ke pasar internasional semakin terbuka bagi produk Indonesia (Hamdani, 2017:25)
+
+Menurut Sukirno (2010:205), keuntungan melakukan ekspor adalah dapat memperluas pasar, menambah devisa negara, dan memperluas lapangan kerja.
+
+## Teori Produksi
+
+Kegiatan yang membuat barang-barang dan berkaitan dengan nilai guna suatu barang. Dalam menganalisis teori produksi, terdapat 1) produksi jangka pendek yang memiliki satu faktor produksi bersifat tetap, sedangkan faktor lainnya bersifat berubah-ubah, 2) produksi jangka panjang yang faktor produksinya bersifat berubah-ubah. Macam-macam faktor produksi adalah asli dan turunan. Produksi memiliki fungsi sebagai usaha untuk memenuhi kebutuhan dengan menciptakan dan meningkatkan kegunaan suatu barang (Sjaroni, 2019:97).
+
+# Metode Penelitian
+## Data
+
+Penelitian ini menggunakan jenis data sekunder berupa produksi, luas lahan, dan volume ekspor karet alam Indonesia dalam rentang tahun 2012-2021. 
+
+
+| Produksi | Luas Lahan | Volume Ekspor |
+|----------|------------|---------------|
+| 3012254	 |  3506201	  | 389360        |
+| 3237433	 |  3555946	  | 426031        |
+| 3153186	 |  3606245   |	409168        |
+| 3145398	 |  3621103	  | 425145        |
+| 3357951	 |  3639049	  | 421360        |
+| 3680428	 |  3659090	  | 463850        |
+| 3630357	 |  3671387	  | 483807        |
+| 3301405	 |  3676036	  | 505220        |
+| 3037348	 |  3726173	  | 388519        |
+| 3045314	 |  3886486	  | 487887        |
+
+Sumber Trade Map dan Badan Pusat Statistik.
+
+## 3.2 Metode Analisis 
+
+Analisis data yang digunakan untuk mengetahui pengaruh produksi dan luas lahan karet alam terhadap volume ekspor karet alam Indonesia ke Jepang tahun 2012-2021 menggunakan regresi multivariat dengan metode Ordinary Least Square (OLS). Alat bantu yang digunakan untuk mengolah data adalah R Studio.
+
+Y = β0 + β~1~X + β~2~S +...+ β~j~X~j~ + μ
+
+Pengaruh variabel independen terhadap volume ekspor karet alam Indonesia ke Jepang ditunjukan oleh persamaan regresi multivariat sebagai berikut:
+
+Y = β0 + β~1~X~1~ + β~2~X~2~ + μ
+
+Dimana
+
+Y = Volume Ekspor Karet Alam
+X = Produksi Karet Alam
+S = Luas Lahan Karet Alam
+
+# Bab IV Pembahasan
+## Pembahasan Masalah
+
+```{r}
+library('readxl')
+dat<-read_excel('Regresi Karet.xlsx')
+reg<-lm(y~x+s,data = dat)
+dat$u<-resid(reg)
+plot(dat$y,dat$u,xlab="Volume Ekspor",ylab="error")
+abline(h=0)
+plot(dat$x,dat$u,xlab="Produksi",ylab="error")
+abline(h=0)
+plot(dat$s,dat$u,xlab="Luas Lahan",ylab="error")
+abline(h=0)
+
+```
+
+
+Data yang telah di visualisasi memperlihatkan bahwa μ masih memiliki pola terhadap Y sehingga dapat dikatakan bahwa sesuatu di error masih bisa menjelaskan Y. Selain itu, μ terlihat independen terhadap X~1~ dan X~2~.
+
+## Analisis Masalah
+
+```{r}
+library(readxl)
+dat<-read_excel("Regresi Karet.xlsx")
+reg1<-lm(y~x+s,data=dat)
+summary(reg1)
+```
+
+
+Hasil perhitungan di atas menunjukan bahwa jika produksi mengalami kenaikan 1 ton maka volume ekspor akan meningkat sebanyak 0,09563. Sedangkan setiap kenaikan 1 hektar lahan maka volume ekspor akan meningkat sebanyak 0,2293. Jika volume ekspor adalah 0, maka produksi ekspor adalah -70.990. Kelemahan data ini adalah hasilnya yang kurang signifikan.
+
+
+# Kesimpulan
+
+Hasil penelitian diatas menunjukkan bahwa pergerakan angka produksi dan luas lahan tidak terlalu mempengaruhi volume ekspor karet alam Indonesia ke Jepang. 
+
+# Daftar Pustaka
+Badan Pusat Statistik. (2022). Statistik Karet Indonesia 2021. bps.go.id
+
+Direktorat Jenderal Perkebunan Kementerian Pertanian. (2021). 2021: Kementan Dorong Kontribusi Perkebunan Terhadap Pertumbuhan Ekonomi Nasional. Kementerian Pertanian Direktorat Jenderal Perkebunan. https://ditjenbun.pertanian.go.id/2021-kementan-dorong-kontribusi-perkebunan-terhadap-pertumbuhan-ekonomi-nasional/
+
+Direktorat Jenderal Perkebunan Kementerian Pertanian. (2021). Statistik Perkebunan Unggulan Nasional 2020-2022.
+
+Dr. H. Bachrudin Sjaroni, SE., MM, Edi Djunaedi, SE., MM, & Noveria S, SE., MM. (2019). Ekonomi Mikro. Deepublish.
+
+Food and Agriculture Organization. (2023). FAOSTAT. https://www.fao.org/faostat/en/#data/TCL/visualize
+
+Ivan Yulianto & Janes Guratan Djermor. (2018). Analisis Penerapan ASEAN-India Free Trade Area (AIFTA) Terhadap Perdagangan Dua Negara Indonesia dengan India Menggunakan Gravity Model. Jurnal Badan Pendidikan dan Pelatihan Keuangan Kementerian Keuangan Republik Indonesia, 11(2), 35–48. https://doi.org/10.48108/jurnalbppk.v11i2.344
+
+Muharami, G. (2018). ANALISIS KINERJA EKSPOR KOMODITAS KARET INDONESIA KE AMERIKA LATIN. 6(1).
+
+Preston Wallace Barker. (1936). Rubber: Some Facts on Its History, Production, and Manufacture.
+
+The Observatory of Economic Complexity. (2022). Natural rubber in other forms in Japan. OEC. https://oec.world/en/profile/bilateral-product/natural-rubber-in-other-forms/reporter/jpn#historical-data]
+
+Trade Map. (2023). Trade Statistics for International Business Development. International Trade Centre.  https://www.trademap.org/Index.aspx
+
+Sadono Sukirno. (2010). Makro Ekonomi Teori Pengantar. Rajawali Pers.
